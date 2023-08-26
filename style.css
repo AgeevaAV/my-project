@@ -267,6 +267,10 @@ header{
     .img-container, .info-container{
         width: 100%;
     }
+    .courses-row{
+        display: block;
+        flex-wrap: wrap;
+    }
 }
 @media (max-width: 578px){
     .header-title-text{
@@ -297,6 +301,10 @@ header{
     }
     .course-name{
         font-size: 30px;
+    }
+    .courses-row{
+        display: block;
+        flex-wrap: wrap;
     }
 }
 .courses h1{
